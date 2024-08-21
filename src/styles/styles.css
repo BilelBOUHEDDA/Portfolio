@@ -1,0 +1,246 @@
+
+.App {
+  position: relative;
+  z-index: 1; /* Assurez-vous que le contenu est au-dessus des particules */
+  color: white; /* Assurez-vous que le texte est visible sur le fond sombre */
+  height: 100vh; /* Assurez-vous que le conteneur principal couvre toute la hauteur de la fenêtre */
+  background: linear-gradient(to bottom, #001f3f, #000a1e); /* Bleu foncé vers un bleu encore plus foncé */
+  margin: 0;
+  overflow: auto; /* Optionnel pour éviter les barres de défilement */
+}
+
+
+.App-container {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.text-start {
+  text-align: left;
+}
+
+.project-category h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem; /* Taille du sous-titre */
+  text-align: left; /* Aligne les sous-titres à gauche */
+}
+
+.project-card-group {
+  display: flex;
+  flex-direction: column; /* Une carte par ligne */
+}
+
+.project-card {
+  background-color: rgba(201, 153, 153, 0);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.project-card h5 {
+  font-size: 1.25rem; /* Taille du titre de la carte */
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 20px; /* Espacement entre la description et le bouton */
+}
+
+.btn-primary {
+  margin: 0 auto; 
+  display: block;
+  width: auto; 
+}
+
+.project-detail {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+
+.h3-left {
+  margin-bottom: 20px;
+  font-size: 1px; /* Taille du sous-titre */
+  text-align: left; /* Aligne les sous-titres à gauche */
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.project-section {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  text-align: center; /* Centre le contenu à l'intérieur du conteneur */
+  max-width: 100%;
+}
+
+/* Style pour l'image */
+.img {
+  width: auto; /* Ajuste la largeur à 100% du conteneur */
+  max-width: 100%; /* Largeur maximale de l'image */
+  border-radius: 8px; /* Arrondir les coins de l'image */
+  margin: 0 auto; /* Centre l'image horizontalement si le texte-align ne suffit pas */
+}
+
+/* Style pour la légende */
+.image-caption {
+  margin-top: 10px; /* Espacement au-dessus de la légende */
+  font-size: 1rem; /* Taille de la police de la légende */
+  
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner-2 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 0, 0);
+  color: white; 
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 40px;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.carousel-control:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.text-content h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1.1em;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 1.6;
+  margin-right: 20px;
+}
+
+.image-containerr {
+  flex: 1;
+  text-align: right;
+}
+
+
+.image-containerr img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.tech-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+}
+
+.tech-card .text-center {
+  padding: 20px;
+}
+
+.tech-card .text-center h5 {
+  margin-top: 10px;
+}
