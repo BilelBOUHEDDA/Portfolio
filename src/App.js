@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -24,15 +24,13 @@ import Project11 from './pages/Project11';
 const App = () => {
   return (
     <Router>
-        
-        <ScrollToTop />
-        <div className="App">
-          
-          <Navbar />
-          <div className='App-container'>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+      <ScrollToTop />
+      <div className="App">
+        <Navbar />
+        <div className='App-container'>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/project-details/1" element={<Project1 />} />
             <Route path="/project-details/2" element={<Project2 />} />
             <Route path="/project-details/3" element={<Project3 />} />
@@ -44,9 +42,10 @@ const App = () => {
             <Route path="/project-details/9" element={<Project9 />} />
             <Route path="/project-details/10" element={<Project10 />} />
             <Route path="/project-details/11" element={<Project11 />} />
-          <Route path="/about" element={<About />} /> 
-        </Routes>
-      </div>
+            <Route path="/about" element={<About />} /> 
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );
