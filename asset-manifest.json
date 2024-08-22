@@ -1,38 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1aedff6a.css",
-    "main.js": "/portfolio/static/js/main.62a3b9e0.js",
+    "main.css": "/portfolio/static/css/main.0aef15f0.css",
+    "main.js": "/portfolio/static/js/main.ff4a7769.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/img7.png": "/portfolio/static/media/img7.644c1fa8056578a3c8ad.png",
-    "static/media/img2.png": "/portfolio/static/media/img2.e9be9e6ec39468f5a3b1.png",
-    "static/media/img4.png": "/portfolio/static/media/img4.ece9887703055990f866.png",
     "static/media/maquette_arduino.png": "/portfolio/static/media/maquette_arduino.dab97f2b6026bea78ed1.png",
-    "static/media/img_1_3.jpg": "/portfolio/static/media/img_1_3.a551f1ca6fdfd16e72e1.jpg",
-    "static/media/img_1_2.jpg": "/portfolio/static/media/img_1_2.ca6dd39251b99a187292.jpg",
-    "static/media/Netbeans.png": "/portfolio/static/media/Netbeans.d846f065a626130d89f0.png",
-    "static/media/Trello.png": "/portfolio/static/media/Trello.3211955dd1af3b45635a.png",
-    "static/media/img3.png": "/portfolio/static/media/img3.3bde998f52e7980c9c2f.png",
     "static/media/architechtureSAE.png": "/portfolio/static/media/architechtureSAE.c5f3a7f70b1824dbf0f2.png",
-    "static/media/img_1_1.jpg": "/portfolio/static/media/img_1_1.9abf41a8d165cbf43471.jpg",
-    "static/media/commerce_2.png": "/portfolio/static/media/commerce_2.8c683d56623378b914c3.png",
-    "static/media/img1.png": "/portfolio/static/media/img1.c135df7e83038d51f600.png",
-    "static/media/commerce_1.png": "/portfolio/static/media/commerce_1.42ae8f5befe4987b5c19.png",
-    "static/media/commerce_6.png": "/portfolio/static/media/commerce_6.1556ba37f6f581dfba39.png",
-    "static/media/MCD_Belfunfaire.png": "/portfolio/static/media/MCD_Belfunfaire.167bb9ffe89e3f2f6223.png",
     "static/media/code_arduino.png": "/portfolio/static/media/code_arduino.8f8a138398df14433b73.png",
-    "static/media/commerce_4.png": "/portfolio/static/media/commerce_4.8da70255162fbf30b511.png",
-    "static/media/img5.png": "/portfolio/static/media/img5.402ded6afd8883c326ef.png",
-    "static/media/img6.png": "/portfolio/static/media/img6.245fb8083cb59f0e5ad4.png",
-    "static/media/commerce_5.png": "/portfolio/static/media/commerce_5.9a4842ba3e94094f7e97.png",
-    "static/media/commerce_3.png": "/portfolio/static/media/commerce_3.aa5929bdcf4cf709d9f4.png",
-    "static/media/zoning_webedia.png": "/portfolio/static/media/zoning_webedia.940ffd7f7924bf37a0ba.png",
     "index.html": "/portfolio/index.html",
-    "main.1aedff6a.css.map": "/portfolio/static/css/main.1aedff6a.css.map",
-    "main.62a3b9e0.js.map": "/portfolio/static/js/main.62a3b9e0.js.map",
+    "main.0aef15f0.css.map": "/portfolio/static/css/main.0aef15f0.css.map",
+    "main.ff4a7769.js.map": "/portfolio/static/js/main.ff4a7769.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aedff6a.css",
-    "static/js/main.62a3b9e0.js"
+    "static/css/main.0aef15f0.css",
+    "static/js/main.ff4a7769.js"
   ]
 }
